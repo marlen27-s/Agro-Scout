@@ -12,16 +12,25 @@ import IconHouseBar from '../Images/Icon/IconHouse.png';
 import IconBagBar from '../Images/Icon/IconBag.png';
 import IconDroneMenu from '../Images/Icon/IconDroneMenu.png';
 import IconJoystick from '../Images/Icon/IconJoystick.png';
+import Basket from '../Page/Basket/Basket';
 
 function Header() {
   const [menuVisible, setMenuVisible] = useState(false);
+  const [basketVisible, setBasketVisible] = useState(false);
   const location = useLocation(); 
 
   const toggleMenu = () => {
     setMenuVisible(!menuVisible);
   };
 
-  
+  const toggleBasket = () => {
+    setBasketVisible(!basketVisible);
+  };
+
+  const closeBasket = () => {
+    setBasketVisible(false);
+  };
+
   useEffect(() => {
     setMenuVisible(false); 
   }, [location.pathname]); 
@@ -56,16 +65,16 @@ function Header() {
           RU
         </h6>
 
-        <a href="Basket"><img className='icon-basket' src={IconBasket} alt="Basket"/></a>
-    
-
+        <div onClick={toggleBasket} style={{cursor: 'pointer'}}>
+          <img className='icon-basket' src={IconBasket} alt="Basket"/>
+        </div>
 
         <img className='icon-menu' src={IconMenu} alt="Menu" onClick={toggleMenu} />
 
         {menuVisible && (
           <div className="icon-menu">
             <nav className="menu-items">
-              <Link to="/" className="menu-item" onClick={toggleMenu}>
+              <Link to="/mainPage" className="menu-item" onClick={toggleMenu}>
                 <img src={IconHouseBar} alt="Home-Icon" className="menu-icon" />
                 Главная
               </Link>
@@ -99,6 +108,8 @@ function Header() {
             </nav>
           </div>
         )}
+
+        {basketVisible && <Basket onClose={closeBasket} />}
       </div>
     </header>
   );

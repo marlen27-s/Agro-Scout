@@ -18,11 +18,7 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={
-          <>
-            <Main />
-          </>
-        } />
+        <Route path="/mainPage" element={<Main />} />
         <Route path="/Entomophagous" element={<Entomophagous/>}/>
         <Route path="/Our-clients" element={<OurClients />} />
         <Route path="/Spraying" element={<Spraying />} />
