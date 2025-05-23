@@ -1,0 +1,92 @@
+
+.bg-ferst-ento{
+    max-width: 1400px;
+    height: 668px;
+    background-image: url("C:\Users\Admin\OneDrive\Рабочий стол\agro-scout-second\src\Images\Bagraund\bacgraundEntoBag.jpg");
+    background-repeat: no-repeat;
+}
+
+.bg-second{
+    max-width: 1400px;
+    height: 668px;
+    background-image: url("C:\Users\Admin\OneDrive\Рабочий стол\agro-scout-second\src\Images\bgBackgraundSecond.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-company{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 44px;
+    color: #fff;
+    margin-top: 120px;
+    margin-left: 199px;
+    max-width: 800px;
+}
+
+.ento-info{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 167%;
+color: #fff;
+margin-left: 199px;
+margin-top: 40px;
+}
+
+.ento-box-icon{
+    width: 500px;
+height: 150px;
+margin-top: 169px;
+margin-left: 199px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.ento-mini-card{
+ max-width: 230px;
+ height: 50px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 15px;
+ justify-content: start;
+}
+
+.ento-mini-card-second{
+ max-width: 230px;
+ height: 50px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 15px;
+ margin-left: 15px;
+}
+
+#box-image-ento-icon{
+border-radius: 50%;
+border: 2px solid #00ff00;
+width: 40px;
+height:40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.image-ento-icon{
+    max-width: 25px;
+    height: 25px;
+}
+
+#text-ento{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 222%;
+color: #fff;
+
+}

@@ -1,0 +1,562 @@
+.conteiner{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.bg-ferst{
+    max-width: 1400px;
+    height: 668px;
+    background-image: url("C:\Users\Admin\OneDrive\Рабочий стол\agro-scout-second\src\Images\bgBackgroundFerst.png");
+    background-repeat: no-repeat;
+}
+
+.bg-second{
+    max-width: 1400px;
+    height: 668px;
+    background-image: url("C:\Users\Admin\OneDrive\Рабочий стол\agro-scout-second\src\Images\bgBackgraundSecond.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-company{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 44px;
+    color: #fff;
+    margin-top: 120px;
+    margin-left: 180px;
+    max-width: 800px;
+}
+
+.box-information{
+    max-width: 500px;
+    height: 90px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.box-pluse-second{
+    margin-left: 14px;    
+}
+
+.box-pluse-thert{
+    margin-left: 14px;
+}
+
+.h5-big-pluse{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.p-big-pluse{
+    margin-top: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    color: #fff;
+}
+
+/* -------------------------------------------------section-2-------------------------------- */
+
+
+
+.trusting{
+    margin-top: 50px;
+    max-width: 1400px;
+    height: 743px;
+    display: flex;
+    flex-direction: column;
+    background: #181818;
+    position: relative;
+    z-index: -2;
+}
+
+.box-info-trusting{
+    max-width: 880px;
+    height: 147px;
+    display: flex;
+    position: relative;
+}
+
+.h3-trusting{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    position: relative;
+    margin-left: 14px;
+}
+
+.p-bg-trusting{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 100%;
+    color: #02e502;
+    position: absolute;
+    z-index: 3;
+    margin-top: 34px;
+}
+
+.icon-drone{
+    position: absolute;
+    z-index: -2;
+    justify-content: end;
+    max-width: 264px;
+    height: 265px;
+    margin-left: 1136px;
+    margin-top: 127px;
+}
+
+
+.conteiner-card-info{
+    max-width: 1300px;
+    height: 536px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 57px;
+}
+
+.card-info{
+    width: 422px;
+    height: 258px;
+    background: #1e1d1d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card-info-one{
+    width: 422px;
+    height: 258px;
+    background: #1e1d1d;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-info-second{
+    width: 422px;
+    height: 258px;
+    background: #1e1d1d;
+    margin-left: 17px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card-info-second-one{
+    width: 422px;
+    height: 258px;
+    background: #1e1d1d;
+    margin-left: 17px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-info{
+    margin-left: 30px;
+    margin-top: 51px;
+    max-width: 40px;
+    height: 40px;
+}
+
+.name-card{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+    margin-top: 58px;
+    margin-left: 11px;
+}
+
+.descripion{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 172%;
+    color: #fff;
+    margin-left: 30px;
+}
+
+/* ------------------------------------section-3------------------------------------------- */
+
+
+
+.offers{
+    max-width: 1400px;
+    height: 836px;
+    margin-top: 110px;
+    background: #181818;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.h3-offers{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 80px;
+color: rgba(255, 255, 255, 0.2);
+position: relative;
+z-index: 1;
+margin-left: 160px;
+margin-top: 20px;
+height: 130px;
+}
+
+.p-bg-offers{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 33px;
+line-height: 100%;
+color: #02e502;
+position: absolute;
+z-index: 2;
+margin-left: 160px;
+margin-top: 54px;
+}
+
+.top-offers{
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 60px;
+text-transform: uppercase;
+color: rgba(70, 70, 70, 0.15);
+transform: rotate(270deg);
+
+}
+
+.box-top-offers{
+    max-width: 436px;
+    height: 170px;
+    position: absolute;
+    transform: translateY(400px);
+    margin-top: 550px;
+    transform: translateX(-80px);
+    
+}
+
+.card-top-offers{
+max-width: 370px;
+height: 580px;
+background: #1e1d1d;
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+margin-left: 160px;
+}
+
+
+.card-top-offers-second{
+    width: 370px;
+height: 580px;
+background: #1e1d1d;
+margin-top: 100px;
+margin-left: 20px;
+}
+
+
+.img-dron-top{
+    max-width: 370px;
+    height: 229px;
+}
+
+.offers-dron-top{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 22px;
+line-height: 100%;
+color: #fff;
+margin-left: 71px;
+margin-top: 25px;
+}
+
+
+.card-brend-dron{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 173%;
+color: #fff;
+margin-left: 71px;
+margin-top: 30px;
+}
+
+.price{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+color: #fff;
+margin-left: 71px;
+margin-top: 25px;
+}
+
+.button-card-ofers{
+width: 288px;
+height: 62px;
+margin-top: 64px;
+margin-left: 41px;
+background-color: #181818;
+border: 2px solid #02e502;
+}
+
+.button-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+color: #02e502;
+}
+
+/* ---------------------------section-4--------------------- */
+
+
+.backgraund-uslug{
+    max-width: 1400px;
+    height: 600px;
+    background-image: url('C:\Users\Admin\OneDrive\Рабочий стол\agro-scout-second\src\Images\bgBackgroundbanner.jpg');
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.uslug{
+    max-width: 840px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image:url('C:\Users\Admin\OneDrive\Рабочий стол\agro-scout-second\src\Images\Rectangle.png') ;
+    display: flex;
+    flex-direction: column;
+}
+
+.h5-uslug{
+    max-width: 500px;
+    height: 52px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 52px;
+line-height: 67%;
+color: #fff;
+margin-top: 120px;
+margin-left: 170px;
+}
+
+.p-uslug{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 20px;
+line-height: 159%;
+color: #fff;
+margin-top: 40px;
+margin-left: 170px;
+}
+
+
+.button-uslug{
+width: 288px;
+height: 62px;
+margin-top: 64px;
+margin-left: 41px;
+background-color: #181818;
+border: 2px solid #02e502;
+margin-left: 170px;
+}
+
+/* ------------------------------------section-5-------------------------------- */
+
+
+.info{
+    max-width: 1400px;
+    height: 340px;
+    background: #181818;
+    margin-top: 100px;
+}
+
+.box-info{
+    max-width: 880px;
+    height: 147px;
+    display: flex;
+    position: relative;
+    margin-left: 70px;
+}
+
+.h3-info{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    position: relative;
+    margin-left: 14px;
+}
+
+
+
+.p-bg-info{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 100%;
+    color: #02e502;
+    position: absolute;
+    z-index: 3;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.p-info{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 14px;
+line-height: 180%;
+color: #fff;
+margin-left: 40px;
+}
+
+
+.button-icon-arrow{
+    margin-left: 400px;    
+}
+
+/* ---------------------------section-6------------------------------------------- */
+
+
+.geo-work{
+    max-width: 1400px;
+    height: 900px;
+    margin-top: 50px;
+    background: #181818;
+}
+
+
+
+.box-geo-work{
+    max-width: 880px;
+    height: 147px;
+    display: flex;
+    position: relative;
+    margin-left: 70px;
+}
+
+.h3-geo-work{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    position: relative;
+    margin-left: 14px;
+}
+
+
+
+.p-geo-work{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 100%;
+    color: #02e502;
+    position: absolute;
+    z-index: 3;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.box-card-geo-work{
+    font-family: var(--font-family);
+font-weight: 200;
+font-size: 20px;
+line-height: 162%;
+color: #fff;
+margin-left: 240px;
+margin-top: 60px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+
+.box-card-geo-work-second{
+    font-family: var(--font-family);
+font-weight: 200;
+font-size: 20px;
+line-height: 162%;
+color: #fff;
+margin-left: 550px;
+margin-top:-508px ;
+position: relative;
+z-index: 2;
+}
+
+/* ----------------------------------------section-7---------------------------------- */
+
+
+
+
+.clients{
+    max-width: 1400px;
+    height: 350px;
+    background: #181818;
+    margin-top: 40px;
+}
+
+.p-clients{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 100%;
+    color: #02e502;
+    position: absolute;
+    z-index: 3;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.h3-clients{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    position: relative;
+    margin-left: 14px;
+}
+
+
+.box-clients{
+    max-width: 880px;
+    height: 147px;
+    display: flex;
+    position: relative;
+    margin-left: 70px;
+}
+
+
+.box-logo-clients{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
